@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BueKimbo Login</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="login--container">
+            <div class="login--size--screen">
+                <form class="login--position" action="processar_login.php" method="POST">
+                    <div class="login--text">
+                        <h1>Login hire.</h1>
+                    </div>
+                    <div class="section-nome">
+                        <label for="E-mail"></label>
+                        <input placeholder="E-mail" type="text" id="E-mail" name="E-mail"
+                        required>
+                    </div>
+                    <div class="section--senha">
+                        <label for="password"></label>
+                        <input placeholder="Palavra Passe" type="password" id="password" name="password" required>
+                    </div>
+
+                </form>
+                <div class="checkboxs--position">
+                        <div class="checkboxs-wrap">
+                            <label for="checkboxs"></label>
+                            <input type="checkbox">
+                            <span class="checkboxs--text--style">Lembrar-me</span>
+                        </div>
+                        <div class="checkboxs--text">
+                            <a href="#"><span class="checkboxs--text2--style">Esqueceu a palavra passe ?</span></a>
+                        </div>
+                    </div>
+                <div class="login--section--two">
+                    <button type="submit">Login</button>
+                    <div class="login--text--paragraph">
+                        <a href="#">
+                            <p>Ou use a sua conta</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="login--social--midia">
+                    <div class="login--fontawesome">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div class="login--fontawesome">
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+                    <div class="login--fontawesome">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="overlay-container">
+        <img src="asset/imagem/7725855.jpg" alt="matrimba">
+        </div>
+    </div>
+        <script src="https://kit.fontawesome.com/b245253c82.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
