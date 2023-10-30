@@ -9,60 +9,50 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="login--container">
-            <div class="login--size--screen">
-                <form class="login--position" action="processar_login.php" method="POST">
-                    <div class="login--text">
-                        <h1>Login hire.</h1>
-                    </div>
-                    <div class="section-nome">
-                        <label for="E-mail"></label>
-                        <input placeholder="E-mail" type="text" id="E-mail" name="E-mail"
-                        required>
-                    </div>
-                    <div class="section--senha">
-                        <label for="password"></label>
-                        <input placeholder="Palavra Passe" type="password" id="password" name="password" required>
-                    </div>
+    <header>
+        <div id="header">
+          <a id="logo" href="index.html">BUE KIMBO</a>
 
+          <div class="contact-flex">
+          
+            <input type="text" class="field-form w-input" maxlength="256" name="name" data-name="Name" placeholder="Pesquise" id="name" required>  <label for="name" class="field-label"><i class="fa-solid fa-magnifying-glass fa-rotate-90" style="color: #e3d0b4;"></i></label>
+        </div>
+
+          <nav id="nav">
+            <button
+              type="button"
+              aria-label="Abrir Menu"
+              id="btn-mobile"
+              aria-haspopup="true"
+              aria-controls="menu"
+              aria-expanded="false"
+            >
+              <span id="hamburger"></span>
+            </button>
+            <ul id="menu">
+              <li><a href="#">Início</a></li>
+              <li><a href="#">Letras</a></li>
+              <li><a href="#sobre">Sobre</a></li>
+              <li><a href="login.html" target="_blank">Login</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+<div class="main">
+    <div  class="container">
+        <div class="login--container second">
+            <div>
+                <form>
+                    <h1>Login hire.</h1>
                 </form>
-                <div class="checkboxs--position">
-                        <div class="checkboxs-wrap">
-                            <label for="checkboxs"></label>
-                            <input type="checkbox">
-                            <span class="checkboxs--text--style">Lembrar-me</span>
-                        </div>
-                        <div class="checkboxs--text">
-                            <a href="#"><span class="checkboxs--text2--style">Esqueceu a palavra passe ?</span></a>
-                        </div>
-                    </div>
-                <div class="login--section--two">
-                    <button type="submit">Login</button>
-                    <div class="login--text--paragraph">
-                        <a href="#">
-                            <p>Ou use a sua conta</p>
-                        </a>
-                    </div>
-                </div>
-                <div class="login--social--midia">
-                    <div class="login--fontawesome">
-                        <i class="fa-brands fa-instagram"></i>
-                    </div>
-                    <div class="login--fontawesome">
-                        <i class="fa-brands fa-facebook"></i>
-                    </div>
-                    <div class="login--fontawesome">
-                        <i class="fa-brands fa-whatsapp"></i>
-                    </div>
-                </div>
+            </div>
+            <div class="img--container">
+                <img src="asset/imagem/7725855.jpg" alt="" class="photo">
             </div>
         </div>
-        <div class="overlay-container">
-        <img src="asset/imagem/7725855.jpg" alt="matrimba">
-        </div>
     </div>
-        <script src="https://kit.fontawesome.com/b245253c82.js" crossorigin="anonymous"></script>
+</div>
+<script src="js/script.js"></script>
 </body>
 
 </html>
